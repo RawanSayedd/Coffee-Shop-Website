@@ -6,6 +6,7 @@ html {
   overflow-x: hidden;
   scroll-padding-top: 9rem;
   scroll-behavior: smooth;
+  overflow-y: hidden;
 }
 html::-webkit-scrollbar {
   width: 0.8rem;
@@ -374,6 +375,20 @@ footer .style-name:hover {
 }
 @media (max-width: 576px) {
   html {
-    font-size: 50%;
+    font-size: 45%;
+    width: 100%;
+    overflow-y: hidden;
+  }
+  #bar-menu {
+    margin-right: 25px;
+  }
+}
+@media (max-width: 390px) {
+  html {
+    font-size: 40%;
+    width: 100%;
+  }
+  #bar-menu {
+    margin-right: 45px;
   }
 }
